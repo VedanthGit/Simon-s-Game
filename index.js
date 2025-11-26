@@ -42,7 +42,7 @@ function checkAnswer(currentLevel) {
 		document.body.classList.add("game-over");
 		document.getElementById(
 			"level-title"
-		).textContent = `Game Over, your score: ${level-1}`;
+		).textContent = `Game Over, your score: ${level - 1}`;
 
 		setTimeout(() => {
 			document.getElementById("level-title").textContent =
