@@ -33,7 +33,7 @@ function restartOnClick() {
 	location.reload();
 }
 
-function checkAnswer(currentLevel) {
+ checkAnswer(currentLevel) {
 	if (gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
 		if (userClickedPattern.length === gamePattern.length) {
 			setTimeout(nextSequence, 1000);
